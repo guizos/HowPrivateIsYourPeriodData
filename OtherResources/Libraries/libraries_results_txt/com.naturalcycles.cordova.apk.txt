@@ -1,0 +1,743 @@
+16:40:12 INFO  LibScoutConfig            : This is LibScout 2.3.2
+16:40:12 INFO  Profile                   : Load library profiles:
+16:41:08 INFO  Profile                   :     Loaded 8008 profiles in 55 sec, 917 ms
+16:41:08 INFO  Profile                   : 
+16:41:08 INFO  LibraryIdentifier         : Process app: com.naturalcycles.cordova.apk
+16:41:08 INFO  LibraryIdentifier         : = Manifest Parser =
+16:41:08 INFO  LibraryIdentifier         :         Package name: com.naturalcycles.cordova
+16:41:08 INFO  LibraryIdentifier         :         Version code: 300014
+16:41:08 INFO  LibraryIdentifier         :        minSdkVersion: 23
+16:41:08 INFO  LibraryIdentifier         :     targetSdkVersion: 27
+16:41:08 INFO  LibraryIdentifier         :         SharedUserId:  - none -
+16:41:08 INFO  LibraryIdentifier         :     Library dependencies:  - none -
+16:41:08 INFO  LibraryIdentifier         : 
+16:41:08 INFO  LibraryIdentifier         : Found 391 unique libraries in 8008 library profiles
+16:41:08 INFO  LibraryIdentifier         : Multi-dex apk detected - Code is merged to single class hierarchy!
+16:41:09 INFO  LibraryIdentifier         : Generated class hierarchy (in 805 ms)
+16:41:10 INFO  WalaUtils                 : 
+16:41:10 INFO  WalaUtils                 : = ClassHierarchy Stats =
+16:41:10 INFO  WalaUtils                 :     # of classes: 2060
+16:41:10 INFO  WalaUtils                 :     # thereof inner classes: 960
+16:41:10 INFO  WalaUtils                 :     # thereof public classes: 1094
+16:41:10 INFO  WalaUtils                 :         Activity : 12
+16:41:10 INFO  WalaUtils                 :         Application : 0
+16:41:10 INFO  WalaUtils                 :         AsyncTask : 6
+16:41:10 INFO  WalaUtils                 :         BroadcastReceiver : 25
+16:41:10 INFO  WalaUtils                 :         ContentProvider : 4
+16:41:10 INFO  WalaUtils                 :         Fragment : 8
+16:41:10 INFO  WalaUtils                 :         Handler : 12
+16:41:10 INFO  WalaUtils                 :         LayoutContainer : 10
+16:41:10 INFO  WalaUtils                 :         Plain : 1960
+16:41:10 INFO  WalaUtils                 :         Runnable : 0
+16:41:10 INFO  WalaUtils                 :         Service : 13
+16:41:10 INFO  WalaUtils                 :         Thread : 6
+16:41:10 INFO  WalaUtils                 :         View : 4
+16:41:10 INFO  WalaUtils                 :     # methods: 13112
+16:41:10 INFO  WalaUtils                 :         # of publicly accessible methods: 9316
+16:41:10 INFO  WalaUtils                 :         # of non-accessible methods: 3796
+16:41:10 INFO  WalaUtils                 : 
+16:41:10 INFO  Profile                   : = PackageTree =
+16:41:10 INFO  PackageTree               : Root Package:  - none -
+16:41:10 INFO  PackageTree               : └── Root
+16:41:10 INFO  PackageTree               :     ├── com
+16:41:10 INFO  PackageTree               :     │   ├── google
+16:41:10 INFO  PackageTree               :     │   │   ├── android
+16:41:10 INFO  PackageTree               :     │   │   │   ├── gms
+16:41:10 INFO  PackageTree               :     │   │   │   │   ├── internal (275)
+16:41:10 INFO  PackageTree               :     │   │   │   │   ├── common (23)
+16:41:10 INFO  PackageTree               :     │   │   │   │   │   ├── util (25)
+16:41:10 INFO  PackageTree               :     │   │   │   │   │   ├── internal (49)
+16:41:10 INFO  PackageTree               :     │   │   │   │   │   │   └── safeparcel (6)
+16:41:10 INFO  PackageTree               :     │   │   │   │   │   ├── annotation (4)
+16:41:10 INFO  PackageTree               :     │   │   │   │   │   ├── api (13)
+16:41:10 INFO  PackageTree               :     │   │   │   │   │   └── stats (7)
+16:41:10 INFO  PackageTree               :     │   │   │   │   ├── flags
+16:41:10 INFO  PackageTree               :     │   │   │   │   │   └── impl (12)
+16:41:10 INFO  PackageTree               :     │   │   │   │   ├── dynamic (12)
+16:41:10 INFO  PackageTree               :     │   │   │   │   ├── dynamite (19)
+16:41:10 INFO  PackageTree               :     │   │   │   │   │   └── descriptors
+16:41:10 INFO  PackageTree               :     │   │   │   │   │       └── com
+16:41:10 INFO  PackageTree               :     │   │   │   │   │           └── google
+16:41:10 INFO  PackageTree               :     │   │   │   │   │               └── android
+16:41:10 INFO  PackageTree               :     │   │   │   │   │                   └── gms
+16:41:10 INFO  PackageTree               :     │   │   │   │   │                       └── flags (1)
+16:41:10 INFO  PackageTree               :     │   │   │   │   ├── actions (4)
+16:41:10 INFO  PackageTree               :     │   │   │   │   ├── tasks (29)
+16:41:10 INFO  PackageTree               :     │   │   │   │   ├── measurement (14)
+16:41:10 INFO  PackageTree               :     │   │   │   │   ├── security (3)
+16:41:10 INFO  PackageTree               :     │   │   │   │   ├── iid (4)
+16:41:10 INFO  PackageTree               :     │   │   │   │   ├── location
+16:41:10 INFO  PackageTree               :     │   │   │   │   │   └── places (2)
+16:41:10 INFO  PackageTree               :     │   │   │   │   └── ads
+16:41:10 INFO  PackageTree               :     │   │   │   │       └── identifier (5)
+16:41:10 INFO  PackageTree               :     │   │   │   └── apps
+16:41:10 INFO  PackageTree               :     │   │   │       └── common
+16:41:10 INFO  PackageTree               :     │   │   │           └── proguard (4)
+16:41:10 INFO  PackageTree               :     │   │   ├── firebase (13)
+16:41:10 INFO  PackageTree               :     │   │   │   ├── messaging (11)
+16:41:10 INFO  PackageTree               :     │   │   │   ├── provider (1)
+16:41:10 INFO  PackageTree               :     │   │   │   ├── iid (24)
+16:41:10 INFO  PackageTree               :     │   │   │   ├── analytics (4)
+16:41:10 INFO  PackageTree               :     │   │   │   └── auth (2)
+16:41:10 INFO  PackageTree               :     │   │   └── protobuf (13)
+16:41:10 INFO  PackageTree               :     │   ├── adjust
+16:41:10 INFO  PackageTree               :     │   │   └── sdk (138)
+16:41:10 INFO  PackageTree               :     │   │       └── plugin (3)
+16:41:10 INFO  PackageTree               :     │   ├── adobe
+16:41:10 INFO  PackageTree               :     │   │   └── phonegap
+16:41:10 INFO  PackageTree               :     │   │       └── push (18)
+16:41:10 INFO  PackageTree               :     │   ├── alexdisler
+16:41:10 INFO  PackageTree               :     │   │   └── inapppurchases (26)
+16:41:10 INFO  PackageTree               :     │   ├── braintreepayments
+16:41:10 INFO  PackageTree               :     │   │   ├── browserswitch (5)
+16:41:10 INFO  PackageTree               :     │   │   └── popupbridge (5)
+16:41:10 INFO  PackageTree               :     │   ├── naturalcycles
+16:41:10 INFO  PackageTree               :     │   │   ├── cordova (3)
+16:41:10 INFO  PackageTree               :     │   │   └── plugin (1)
+16:41:10 INFO  PackageTree               :     │   ├── android
+16:41:10 INFO  PackageTree               :     │   │   └── vending
+16:41:10 INFO  PackageTree               :     │   │       └── billing (3)
+16:41:10 INFO  PackageTree               :     │   ├── phonegap
+16:41:10 INFO  PackageTree               :     │   │   └── plugins
+16:41:10 INFO  PackageTree               :     │   │       └── nativesettings (1)
+16:41:10 INFO  PackageTree               :     │   ├── verso
+16:41:10 INFO  PackageTree               :     │   │   └── cordova
+16:41:10 INFO  PackageTree               :     │   │       └── clipboard (1)
+16:41:10 INFO  PackageTree               :     │   └── doctolib
+16:41:10 INFO  PackageTree               :     │       └── cordova
+16:41:10 INFO  PackageTree               :     │           └── overview (1)
+16:41:10 INFO  PackageTree               :     ├── android
+16:41:10 INFO  PackageTree               :     │   ├── arch
+16:41:10 INFO  PackageTree               :     │   │   ├── lifecycle (38)
+16:41:10 INFO  PackageTree               :     │   │   └── core
+16:41:10 INFO  PackageTree               :     │   │       ├── internal (8)
+16:41:10 INFO  PackageTree               :     │   │       ├── executor (5)
+16:41:10 INFO  PackageTree               :     │   │       └── util (1)
+16:41:10 INFO  PackageTree               :     │   └── support
+16:41:10 INFO  PackageTree               :     │       ├── v4
+16:41:10 INFO  PackageTree               :     │       │   ├── media (138)
+16:41:10 INFO  PackageTree               :     │       │   │   ├── session (92)
+16:41:10 INFO  PackageTree               :     │       │   │   └── app (3)
+16:41:10 INFO  PackageTree               :     │       │   ├── graphics (19)
+16:41:10 INFO  PackageTree               :     │       │   │   └── drawable (15)
+16:41:10 INFO  PackageTree               :     │       │   ├── widget (114)
+16:41:10 INFO  PackageTree               :     │       │   ├── os (24)
+16:41:10 INFO  PackageTree               :     │       │   ├── net (5)
+16:41:10 INFO  PackageTree               :     │       │   ├── content (32)
+16:41:10 INFO  PackageTree               :     │       │   │   ├── res (12)
+16:41:10 INFO  PackageTree               :     │       │   │   └── pm (5)
+16:41:10 INFO  PackageTree               :     │       │   ├── text (13)
+16:41:10 INFO  PackageTree               :     │       │   │   └── util (4)
+16:41:10 INFO  PackageTree               :     │       │   ├── app (176)
+16:41:10 INFO  PackageTree               :     │       │   ├── provider (34)
+16:41:10 INFO  PackageTree               :     │       │   ├── view (117)
+16:41:10 INFO  PackageTree               :     │       │   │   ├── accessibility (17)
+16:41:10 INFO  PackageTree               :     │       │   │   └── animation (6)
+16:41:10 INFO  PackageTree               :     │       │   ├── util (29)
+16:41:10 INFO  PackageTree               :     │       │   ├── hardware
+16:41:10 INFO  PackageTree               :     │       │   │   ├── fingerprint (5)
+16:41:10 INFO  PackageTree               :     │       │   │   └── display (3)
+16:41:10 INFO  PackageTree               :     │       │   ├── print (16)
+16:41:10 INFO  PackageTree               :     │       │   ├── math (1)
+16:41:10 INFO  PackageTree               :     │       │   ├── internal
+16:41:10 INFO  PackageTree               :     │       │   │   └── view (3)
+16:41:10 INFO  PackageTree               :     │       │   ├── accessibilityservice (1)
+16:41:10 INFO  PackageTree               :     │       │   └── database (1)
+16:41:10 INFO  PackageTree               :     │       ├── annotation (53)
+16:41:10 INFO  PackageTree               :     │       ├── v13
+16:41:10 INFO  PackageTree               :     │       │   ├── view (6)
+16:41:10 INFO  PackageTree               :     │       │   │   └── inputmethod (9)
+16:41:10 INFO  PackageTree               :     │       │   └── app (17)
+16:41:10 INFO  PackageTree               :     │       └── design
+16:41:10 INFO  PackageTree               :     │           └── widget (12)
+16:41:10 INFO  PackageTree               :     ├── org
+16:41:10 INFO  PackageTree               :     │   └── apache
+16:41:10 INFO  PackageTree               :     │       └── cordova (76)
+16:41:10 INFO  PackageTree               :     │           ├── engine (13)
+16:41:10 INFO  PackageTree               :     │           ├── statusbar (10)
+16:41:10 INFO  PackageTree               :     │           ├── inappbrowser (16)
+16:41:10 INFO  PackageTree               :     │           ├── file (46)
+16:41:10 INFO  PackageTree               :     │           ├── splashscreen (11)
+16:41:10 INFO  PackageTree               :     │           ├── device (1)
+16:41:10 INFO  PackageTree               :     │           ├── networkinformation (2)
+16:41:10 INFO  PackageTree               :     │           ├── globalization (3)
+16:41:10 INFO  PackageTree               :     │           └── whitelist (2)
+16:41:10 INFO  PackageTree               :     ├── de
+16:41:10 INFO  PackageTree               :     │   └── appplant
+16:41:10 INFO  PackageTree               :     │       └── cordova
+16:41:10 INFO  PackageTree               :     │           └── plugin
+16:41:10 INFO  PackageTree               :     │               ├── notification (13)
+16:41:10 INFO  PackageTree               :     │               └── localnotification (7)
+16:41:10 INFO  PackageTree               :     ├── io
+16:41:10 INFO  PackageTree               :     │   └── ionic
+16:41:10 INFO  PackageTree               :     │       ├── keyboard (5)
+16:41:10 INFO  PackageTree               :     │       └── links (1)
+16:41:10 INFO  PackageTree               :     ├── me
+16:41:10 INFO  PackageTree               :     │   └── leolin
+16:41:10 INFO  PackageTree               :     │       └── shortcutbadger (3)
+16:41:10 INFO  PackageTree               :     │           ├── impl (17)
+16:41:10 INFO  PackageTree               :     │           └── util (2)
+16:41:10 INFO  PackageTree               :     ├── nl
+16:41:10 INFO  PackageTree               :     │   └── xservices
+16:41:10 INFO  PackageTree               :     │       └── plugins (13)
+16:41:10 INFO  PackageTree               :     └── cordova
+16:41:10 INFO  PackageTree               :         └── plugins
+16:41:10 INFO  PackageTree               :             └── screenorientation (1)
+16:41:10 INFO  Profile                   : 
+16:41:10 INFO  AppProfile                : - generated app package tree (in 49 ms)
+16:41:10 INFO  AppProfile                : 
+16:41:10 DEBUG HashTree                  : Generate hash tree..
+16:41:10 DEBUG HashTree                  :     - generated 91 package hashes.
+16:41:10 DEBUG HashTree                  :     - generated 1945 clazz hashes.
+16:41:10 DEBUG HashTree                  :     - generated 13112 method hashes.
+16:41:10 DEBUG HashTree                  :     => Library Hash: 97b8668ee6f6e5799d26fdcb3d6fe510
+16:41:10 INFO  AppProfile                : - generated app hash trees (in 486 ms)
+16:41:10 INFO  AppProfile                : 
+16:41:10 INFO  LibraryIdentifier         : = Scan for library root packages (heuristic) =
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.arch.core.internal  (android.arch.core::common)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.arch.core  (android.arch.core::runtime)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.arch.lifecycle  (android.arch.lifecycle::common)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.arch.lifecycle  (android.arch.lifecycle::common-java8)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.arch.lifecycle  (android.arch.lifecycle::compiler)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.arch.lifecycle  (android.arch.lifecycle::extensions)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.arch.lifecycle  (android.arch.lifecycle::livedata)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.arch.lifecycle  (android.arch.lifecycle::livedata-core)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.arch.lifecycle  (android.arch.lifecycle::reactivestreams)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.arch.lifecycle  (android.arch.lifecycle::runtime)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.arch.lifecycle  (android.arch.lifecycle::viewmodel)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (androidx.media::media)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.view  (com.android.support::asynclayoutinflater)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.util  (com.android.support::collections)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.widget  (com.android.support::cursoradapter)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (com.android.support::customview)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (com.android.support::design)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.provider  (com.android.support::documentfile)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.widget  (com.android.support::drawerlayout)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.view.animation  (com.android.support::interpolator)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (com.android.support::loader)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.content  (com.android.support::localbroadcastmanager)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.print  (com.android.support::print)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.widget  (com.android.support::slidingpanelayout)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (com.android.support::support-annotations)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (com.android.support::support-compat)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (com.android.support::support-core-ui)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (com.android.support::support-core-utils)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (com.android.support::support-fragment)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (com.android.support::support-media-compat)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.support.v13.app  (com.android.support::support-v13)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (com.android.support::support-v4)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.widget  (com.android.support::swiperefreshlayout)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.view  (com.android.support::viewpager)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package com.android  (com.android.tools::common)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package com.android  (com.android.tools::sdk-common)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.internal  (com.google.android.gms::play-services-clearcut)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.internal  (com.google.android.gms::play-services-gass)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.iid  (com.google.android.gms::play-services-iid)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.location  (com.google.android.gms::play-services-location)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.location.places  (com.google.android.gms::play-services-places-placereport)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.tasks  (com.google.android.gms::play-services-tasks)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.measurement  (com.google.firebase::firebase-analytics)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package com.google.firebase  (com.google.firebase::firebase-common)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package com.google.firebase  (com.google.firebase::firebase-firestore)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package com.google.firebase.iid  (com.google.firebase::firebase-iid)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package com.google.firebase.messaging  (com.google.firebase::firebase-messaging)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.internal  (com.google.firebase::firebase-storage-common)
+16:41:10 INFO  LibraryIdentifier         :     - Found lib root package com.google.protobuf  (com.google.firebase::protolite-well-known-types)
+16:41:10 INFO  LibraryIdentifier         : 
+16:41:10 INFO  LibraryIdentifier         : = Match profiles =
+16:41:34 INFO  LibraryIdentifier         :     >> profile matching done (23 sec, 527 ms)
+16:41:34 INFO  LibraryIdentifier         : 
+16:41:34 INFO  LibraryIdentifier         : == Report ==
+16:41:34 INFO  LibraryIdentifier         : - Full library matches:
+16:41:34 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-common
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 11.0.1  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-common
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 11.0.2  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-common
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 11.0.4  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-common
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 11.2.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-common
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 11.2.2  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-common
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 11.4.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-places-placereport
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 15.0.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google.android.gms.location.places"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-places-placereport
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 15.0.1  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google.android.gms.location.places"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-places-placereport
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 16.0.0
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google.android.gms.location.places"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.android.support::localbroadcastmanager
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 28.0.0
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "android.support.v4.content"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: androidx.legacy::legacy-support-v13
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 1.0.0
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "androidx.legacy"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.flags")
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.android.support::customview
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 28.0.0
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "android.support.v4"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.android.support::support-core-utils
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 28.0.0
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "android.support.v4.content"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-basement
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 11.0.1  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google"  (in app: "com.google")
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-basement
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 11.0.2  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google"  (in app: "com.google")
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-basement
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 11.0.4  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google"  (in app: "com.google")
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.android.support::support-annotations
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 27.1.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "android.support.annotation"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.android.support::support-annotations
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 27.1.1  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "android.support.annotation"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-messaging
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 11.0.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google.firebase.messaging"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-messaging
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 11.0.1  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google.firebase.messaging"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-messaging
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 11.0.2  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google.firebase.messaging"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-messaging
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 11.0.4  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google.firebase.messaging"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.android.support::support-media-compat
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 27.0.2  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "android.support.v4.media"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.android.support::support-media-compat
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 27.1.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "android.support.v4.media"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.android.support::support-media-compat
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 27.1.1  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "android.support.v4.media"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: android.arch.core::common
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 1.0.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "android.arch.core.internal"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: android.arch.core::common
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 1.1.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "android.arch.core.internal"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: android.arch.core::common
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 1.1.1
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "android.arch.core"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.android.support::asynclayoutinflater
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 28.0.0
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "android.support.v4.view"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-iid
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 11.0.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-iid
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 11.0.1  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-iid
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 11.0.2  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: android.arch.core::runtime
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 1.0.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "android.arch.core"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: android.arch.core::runtime
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 1.1.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "android.arch.core"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: android.arch.core::runtime
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 1.1.1
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "android.arch.core.executor"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-tasks
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 9.8.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google.android.gms.tasks"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-tasks
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 10.0.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google.android.gms.tasks"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-tasks
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 10.0.1  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google.android.gms.tasks"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-tasks
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 10.2.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google.android.gms.tasks"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-tasks
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 10.2.1  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google.android.gms.tasks"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-tasks
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 10.2.4  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google.android.gms.tasks"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-tasks
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 10.2.6  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google.android.gms.tasks"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-tasks
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 11.0.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-tasks
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 11.0.1  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-tasks
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 11.0.2  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-tasks
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 11.0.4  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-tasks
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 11.2.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-tasks
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 11.2.2  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-tasks
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 11.4.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.android.support::support-v13
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 27.1.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "android.support.v13"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.flags")
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.android.support::support-v13
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 27.1.1  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "android.support.v13"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.flags")
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.android.support::support-v13
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 28.0.0
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "android.support.v13"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.flags")
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.android.support::support-core-ui
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 27.1.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "android.support"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.android.support::support-core-ui
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 27.1.1  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "android.support"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.android.support::support-core-ui
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 28.0.0
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "android.support.v4"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: Facebook
+16:41:34 INFO  ProfileMatch              :             category: SocialMedia
+16:41:34 INFO  ProfileMatch              :              version: 4.27.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date: 26.09.2017
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.flags")
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: Facebook
+16:41:34 INFO  ProfileMatch              :             category: SocialMedia
+16:41:34 INFO  ProfileMatch              :              version: 4.28.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date: 07.11.2017
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.flags")
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: Facebook
+16:41:34 INFO  ProfileMatch              :             category: SocialMedia
+16:41:34 INFO  ProfileMatch              :              version: 4.29.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date: 05.12.2017
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.flags")
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: Facebook
+16:41:34 INFO  ProfileMatch              :             category: SocialMedia
+16:41:34 INFO  ProfileMatch              :              version: 4.30.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date: 25.01.2018
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.flags")
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: Facebook
+16:41:34 INFO  ProfileMatch              :             category: SocialMedia
+16:41:34 INFO  ProfileMatch              :              version: 4.31.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date: 28.02.2018
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.flags")
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: Facebook
+16:41:34 INFO  ProfileMatch              :             category: SocialMedia
+16:41:34 INFO  ProfileMatch              :              version: 4.32.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date: 11.04.2018
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.flags")
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: Facebook
+16:41:34 INFO  ProfileMatch              :             category: SocialMedia
+16:41:34 INFO  ProfileMatch              :              version: 4.33.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date: 01.05.2018
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.flags")
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: Facebook
+16:41:34 INFO  ProfileMatch              :             category: SocialMedia
+16:41:34 INFO  ProfileMatch              :              version: 4.34.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date: 19.06.2018
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.flags")
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: Facebook
+16:41:34 INFO  ProfileMatch              :             category: SocialMedia
+16:41:34 INFO  ProfileMatch              :              version: 4.35.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date: 27.07.2018
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.flags")
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: Facebook
+16:41:34 INFO  ProfileMatch              :             category: SocialMedia
+16:41:34 INFO  ProfileMatch              :              version: 4.36.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date: 30.08.2018
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.flags")
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: Facebook
+16:41:34 INFO  ProfileMatch              :             category: SocialMedia
+16:41:34 INFO  ProfileMatch              :              version: 4.36.1  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date: 15.09.2018
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.flags")
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: Facebook
+16:41:34 INFO  ProfileMatch              :             category: SocialMedia
+16:41:34 INFO  ProfileMatch              :              version: 4.37.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date: 27.09.2018
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.flags")
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: Facebook
+16:41:34 INFO  ProfileMatch              :             category: SocialMedia
+16:41:34 INFO  ProfileMatch              :              version: 4.38.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date: 23.10.2018
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.flags")
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: Facebook
+16:41:34 INFO  ProfileMatch              :             category: SocialMedia
+16:41:34 INFO  ProfileMatch              :              version: 4.38.1  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date: 31.10.2018
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.flags")
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: Facebook
+16:41:34 INFO  ProfileMatch              :             category: SocialMedia
+16:41:34 INFO  ProfileMatch              :              version: 4.39.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date: 05.12.2018
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.flags")
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: Facebook
+16:41:34 INFO  ProfileMatch              :             category: SocialMedia
+16:41:34 INFO  ProfileMatch              :              version: 4.40.0
+16:41:34 INFO  ProfileMatch              :         release-date: 23.01.2019
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.flags")
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-analytics-impl
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 11.0.0  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-analytics-impl
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 11.0.1  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-analytics-impl
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 11.0.2  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-analytics-impl
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 11.0.4  [OLD VERSION]
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "com.google"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  ProfileMatch              :                 name: com.android.support::viewpager
+16:41:34 INFO  ProfileMatch              :             category: Android
+16:41:34 INFO  ProfileMatch              :              version: 28.0.0
+16:41:34 INFO  ProfileMatch              :         release-date:  --
+16:41:34 INFO  ProfileMatch              :     lib root package: "android.support.v4.view"
+16:41:34 INFO  ProfileMatch              : 
+16:41:34 INFO  LibraryIdentifier         : 
+16:41:34 INFO  LibraryIdentifier         : - Partial library matches:
+16:41:34 INFO  LibraryIdentifier         :                 name: com.android.support::loader
+16:41:34 INFO  LibraryIdentifier         :             category: Android
+16:41:34 INFO  LibraryIdentifier         :              version: 28.0.0
+16:41:34 INFO  LibraryIdentifier         :         release-date:  --
+16:41:34 INFO  LibraryIdentifier         :     lib root package: "android.support.v4"
+16:41:34 INFO  LibraryIdentifier         :         Partial matching results:
+16:41:34 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.85714287
+16:41:34 INFO  LibraryIdentifier         : 
+16:41:34 INFO  LibraryIdentifier         :                 name: com.android.support::coordinatorlayout
+16:41:34 INFO  LibraryIdentifier         :             category: Android
+16:41:34 INFO  LibraryIdentifier         :              version: 28.0.0
+16:41:34 INFO  LibraryIdentifier         :         release-date:  --
+16:41:34 INFO  LibraryIdentifier         :     lib root package: "android.support"
+16:41:34 INFO  LibraryIdentifier         :         Partial matching results:
+16:41:34 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9545455
+16:41:34 INFO  LibraryIdentifier         : 
+16:41:34 INFO  LibraryIdentifier         :                 name: com.android.support::support-compat
+16:41:34 INFO  LibraryIdentifier         :             category: Android
+16:41:34 INFO  LibraryIdentifier         :              version: 27.1.1  [OLD VERSION]
+16:41:34 INFO  LibraryIdentifier         :         release-date:  --
+16:41:34 INFO  LibraryIdentifier         :     lib root package: "android.support"
+16:41:34 INFO  LibraryIdentifier         :         Partial matching results:
+16:41:34 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9840495
+16:41:34 INFO  LibraryIdentifier         : 
+16:41:34 INFO  LibraryIdentifier         :                 name: androidx.arch.core::core-common
+16:41:34 INFO  LibraryIdentifier         :             category: Android
+16:41:34 INFO  LibraryIdentifier         :              version: 2.0.0
+16:41:34 INFO  LibraryIdentifier         :         release-date:  --
+16:41:34 INFO  LibraryIdentifier         :     lib root package: "androidx.arch.core"
+16:41:34 INFO  LibraryIdentifier         :         Partial matching results:
+16:41:34 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.875
+16:41:34 INFO  LibraryIdentifier         : 
+16:41:34 INFO  LibraryIdentifier         : 
+16:41:34 INFO  LibraryIdentifier         : App processing time: 26 sec, 36 ms

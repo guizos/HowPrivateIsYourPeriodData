@@ -1,0 +1,224 @@
+16:15:01 INFO  LibScoutConfig            : This is LibScout 2.3.2
+16:15:01 INFO  Profile                   : Load library profiles:
+16:15:49 INFO  Profile                   :     Loaded 8008 profiles in 47 sec, 579 ms
+16:15:49 INFO  Profile                   : 
+16:15:49 INFO  LibraryIdentifier         : Process app: com.guillamegranger.mc.apk
+16:15:49 INFO  LibraryIdentifier         : = Manifest Parser =
+16:15:49 INFO  LibraryIdentifier         :         Package name: com.guillaumegranger.mc
+16:15:49 INFO  LibraryIdentifier         :         Version code: 20001
+16:15:49 INFO  LibraryIdentifier         :        minSdkVersion: 8
+16:15:49 INFO  LibraryIdentifier         :     targetSdkVersion: 16
+16:15:49 INFO  LibraryIdentifier         :         SharedUserId:  - none -
+16:15:49 INFO  LibraryIdentifier         :     Library dependencies:  - none -
+16:15:49 INFO  LibraryIdentifier         : 
+16:15:49 INFO  LibraryIdentifier         : Found 391 unique libraries in 8008 library profiles
+16:15:50 INFO  LibraryIdentifier         : Generated class hierarchy (in 691 ms)
+16:15:50 INFO  WalaUtils                 : 
+16:15:50 INFO  WalaUtils                 : = ClassHierarchy Stats =
+16:15:50 INFO  WalaUtils                 :     # of classes: 883
+16:15:50 INFO  WalaUtils                 :     # thereof inner classes: 176
+16:15:50 INFO  WalaUtils                 :     # thereof public classes: 472
+16:15:50 INFO  WalaUtils                 :         Activity : 30
+16:15:50 INFO  WalaUtils                 :         Application : 1
+16:15:50 INFO  WalaUtils                 :         AsyncTask : 8
+16:15:50 INFO  WalaUtils                 :         BroadcastReceiver : 4
+16:15:50 INFO  WalaUtils                 :         ContentProvider : 0
+16:15:50 INFO  WalaUtils                 :         Fragment : 26
+16:15:50 INFO  WalaUtils                 :         Handler : 2
+16:15:50 INFO  WalaUtils                 :         LayoutContainer : 32
+16:15:50 INFO  WalaUtils                 :         Plain : 768
+16:15:50 INFO  WalaUtils                 :         Runnable : 0
+16:15:50 INFO  WalaUtils                 :         Service : 0
+16:15:50 INFO  WalaUtils                 :         Thread : 0
+16:15:50 INFO  WalaUtils                 :         View : 12
+16:15:50 INFO  WalaUtils                 :     # methods: 6920
+16:15:50 INFO  WalaUtils                 :         # of publicly accessible methods: 5188
+16:15:50 INFO  WalaUtils                 :         # of non-accessible methods: 1732
+16:15:50 INFO  WalaUtils                 : 
+16:15:50 INFO  Profile                   : = PackageTree =
+16:15:50 INFO  PackageTree               : Root Package:  - none -
+16:15:50 INFO  PackageTree               : └── Root
+16:15:50 INFO  PackageTree               :     ├── com
+16:15:50 INFO  PackageTree               :     │   ├── actionbarsherlock (10)
+16:15:50 INFO  PackageTree               :     │   │   ├── internal (7)
+16:15:50 INFO  PackageTree               :     │   │   │   ├── widget (55)
+16:15:50 INFO  PackageTree               :     │   │   │   ├── view (4)
+16:15:50 INFO  PackageTree               :     │   │   │   │   └── menu (33)
+16:15:50 INFO  PackageTree               :     │   │   │   ├── nineoldandroids
+16:15:50 INFO  PackageTree               :     │   │   │   │   ├── animation (32)
+16:15:50 INFO  PackageTree               :     │   │   │   │   ├── widget (3)
+16:15:50 INFO  PackageTree               :     │   │   │   │   └── view (1)
+16:15:50 INFO  PackageTree               :     │   │   │   │       └── animation (1)
+16:15:50 INFO  PackageTree               :     │   │   │   └── app (7)
+16:15:50 INFO  PackageTree               :     │   │   ├── app (14)
+16:15:50 INFO  PackageTree               :     │   │   ├── widget (40)
+16:15:50 INFO  PackageTree               :     │   │   └── view (15)
+16:15:50 INFO  PackageTree               :     │   ├── guillaumegranger
+16:15:50 INFO  PackageTree               :     │   │   └── mclib (125)
+16:15:50 INFO  PackageTree               :     │   │       ├── b (39)
+16:15:50 INFO  PackageTree               :     │   │       ├── c (7)
+16:15:50 INFO  PackageTree               :     │   │       ├── view (17)
+16:15:50 INFO  PackageTree               :     │   │       ├── e (3)
+16:15:50 INFO  PackageTree               :     │   │       ├── d (2)
+16:15:50 INFO  PackageTree               :     │   │       ├── f (2)
+16:15:50 INFO  PackageTree               :     │   │       └── a (2)
+16:15:50 INFO  PackageTree               :     │   ├── google
+16:15:50 INFO  PackageTree               :     │   │   ├── ads (58)
+16:15:50 INFO  PackageTree               :     │   │   │   ├── e (31)
+16:15:50 INFO  PackageTree               :     │   │   │   ├── b (28)
+16:15:50 INFO  PackageTree               :     │   │   │   ├── c (10)
+16:15:50 INFO  PackageTree               :     │   │   │   │   └── a (1)
+16:15:50 INFO  PackageTree               :     │   │   │   ├── d (2)
+16:15:50 INFO  PackageTree               :     │   │   │   └── a (1)
+16:15:50 INFO  PackageTree               :     │   │   └── a
+16:15:50 INFO  PackageTree               :     │   │       └── a (1)
+16:15:50 INFO  PackageTree               :     │   ├── witiz
+16:15:50 INFO  PackageTree               :     │   │   └── colorpicker (5)
+16:15:50 INFO  PackageTree               :     │   │       ├── views (3)
+16:15:50 INFO  PackageTree               :     │   │       └── a (1)
+16:15:50 INFO  PackageTree               :     │   └── a
+16:15:50 INFO  PackageTree               :     │       └── a (38)
+16:15:50 INFO  PackageTree               :     ├── a
+16:15:50 INFO  PackageTree               :     │   └── a
+16:15:50 INFO  PackageTree               :     │       └── a (30)
+16:15:50 INFO  PackageTree               :     │           ├── c (20)
+16:15:50 INFO  PackageTree               :     │           ├── e (35)
+16:15:50 INFO  PackageTree               :     │           ├── d (22)
+16:15:50 INFO  PackageTree               :     │           ├── b (35)
+16:15:50 INFO  PackageTree               :     │           ├── f (13)
+16:15:50 INFO  PackageTree               :     │           └── a (6)
+16:15:50 INFO  PackageTree               :     └── android
+16:15:50 INFO  PackageTree               :         └── support
+16:15:50 INFO  PackageTree               :             └── v4
+16:15:50 INFO  PackageTree               :                 ├── app (65)
+16:15:50 INFO  PackageTree               :                 ├── view (39)
+16:15:50 INFO  PackageTree               :                 ├── a (2)
+16:15:50 INFO  PackageTree               :                 ├── d (11)
+16:15:50 INFO  PackageTree               :                 ├── b (5)
+16:15:50 INFO  PackageTree               :                 └── c (2)
+16:15:50 INFO  Profile                   : 
+16:15:50 INFO  AppProfile                : - generated app package tree (in 25 ms)
+16:15:50 INFO  AppProfile                : 
+16:15:50 DEBUG HashTree                  : Generate hash tree..
+16:15:50 DEBUG HashTree                  :     - generated 46 package hashes.
+16:15:50 DEBUG HashTree                  :     - generated 852 clazz hashes.
+16:15:50 DEBUG HashTree                  :     - generated 6920 method hashes.
+16:15:50 DEBUG HashTree                  :     => Library Hash: 640c728bf07379f5d14551a7a6d8a1a7
+16:15:50 INFO  AppProfile                : - generated app hash trees (in 201 ms)
+16:15:50 INFO  AppProfile                : 
+16:15:50 INFO  LibraryIdentifier         : = Scan for library root packages (heuristic) =
+16:15:50 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.view  (com.android.support::asynclayoutinflater)
+16:15:50 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (com.android.support::customview)
+16:15:50 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (com.android.support::loader)
+16:15:50 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (com.android.support::support-compat)
+16:15:50 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (com.android.support::support-core-ui)
+16:15:50 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (com.android.support::support-core-utils)
+16:15:50 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (com.android.support::support-fragment)
+16:15:50 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (com.android.support::support-v4)
+16:15:50 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.view  (com.android.support::viewpager)
+16:15:50 INFO  LibraryIdentifier         : 
+16:15:50 INFO  LibraryIdentifier         : = Match profiles =
+16:15:54 INFO  LibraryIdentifier         :     >> profile matching done (4 sec, 80 ms)
+16:15:54 INFO  LibraryIdentifier         : 
+16:15:54 INFO  LibraryIdentifier         : == Report ==
+16:15:54 INFO  LibraryIdentifier         : - Full library matches:
+16:15:54 INFO  ProfileMatch              :                 name: Facebook
+16:15:54 INFO  ProfileMatch              :             category: SocialMedia
+16:15:54 INFO  ProfileMatch              :              version: 4.27.0  [OLD VERSION]
+16:15:54 INFO  ProfileMatch              :         release-date: 26.09.2017
+16:15:54 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.ads.a")
+16:15:54 INFO  ProfileMatch              : 
+16:15:54 INFO  ProfileMatch              :                 name: Facebook
+16:15:54 INFO  ProfileMatch              :             category: SocialMedia
+16:15:54 INFO  ProfileMatch              :              version: 4.28.0  [OLD VERSION]
+16:15:54 INFO  ProfileMatch              :         release-date: 07.11.2017
+16:15:54 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.ads.a")
+16:15:54 INFO  ProfileMatch              : 
+16:15:54 INFO  ProfileMatch              :                 name: Facebook
+16:15:54 INFO  ProfileMatch              :             category: SocialMedia
+16:15:54 INFO  ProfileMatch              :              version: 4.29.0  [OLD VERSION]
+16:15:54 INFO  ProfileMatch              :         release-date: 05.12.2017
+16:15:54 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.ads.a")
+16:15:54 INFO  ProfileMatch              : 
+16:15:54 INFO  ProfileMatch              :                 name: Facebook
+16:15:54 INFO  ProfileMatch              :             category: SocialMedia
+16:15:54 INFO  ProfileMatch              :              version: 4.30.0  [OLD VERSION]
+16:15:54 INFO  ProfileMatch              :         release-date: 25.01.2018
+16:15:54 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.ads.a")
+16:15:54 INFO  ProfileMatch              : 
+16:15:54 INFO  ProfileMatch              :                 name: Facebook
+16:15:54 INFO  ProfileMatch              :             category: SocialMedia
+16:15:54 INFO  ProfileMatch              :              version: 4.31.0  [OLD VERSION]
+16:15:54 INFO  ProfileMatch              :         release-date: 28.02.2018
+16:15:54 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.ads.a")
+16:15:54 INFO  ProfileMatch              : 
+16:15:54 INFO  ProfileMatch              :                 name: Facebook
+16:15:54 INFO  ProfileMatch              :             category: SocialMedia
+16:15:54 INFO  ProfileMatch              :              version: 4.32.0  [OLD VERSION]
+16:15:54 INFO  ProfileMatch              :         release-date: 11.04.2018
+16:15:54 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.ads.a")
+16:15:54 INFO  ProfileMatch              : 
+16:15:54 INFO  ProfileMatch              :                 name: Facebook
+16:15:54 INFO  ProfileMatch              :             category: SocialMedia
+16:15:54 INFO  ProfileMatch              :              version: 4.33.0  [OLD VERSION]
+16:15:54 INFO  ProfileMatch              :         release-date: 01.05.2018
+16:15:54 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.ads.a")
+16:15:54 INFO  ProfileMatch              : 
+16:15:54 INFO  ProfileMatch              :                 name: Facebook
+16:15:54 INFO  ProfileMatch              :             category: SocialMedia
+16:15:54 INFO  ProfileMatch              :              version: 4.34.0  [OLD VERSION]
+16:15:54 INFO  ProfileMatch              :         release-date: 19.06.2018
+16:15:54 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.ads.a")
+16:15:54 INFO  ProfileMatch              : 
+16:15:54 INFO  ProfileMatch              :                 name: Facebook
+16:15:54 INFO  ProfileMatch              :             category: SocialMedia
+16:15:54 INFO  ProfileMatch              :              version: 4.35.0  [OLD VERSION]
+16:15:54 INFO  ProfileMatch              :         release-date: 27.07.2018
+16:15:54 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.ads.a")
+16:15:54 INFO  ProfileMatch              : 
+16:15:54 INFO  ProfileMatch              :                 name: Facebook
+16:15:54 INFO  ProfileMatch              :             category: SocialMedia
+16:15:54 INFO  ProfileMatch              :              version: 4.36.0  [OLD VERSION]
+16:15:54 INFO  ProfileMatch              :         release-date: 30.08.2018
+16:15:54 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.ads.a")
+16:15:54 INFO  ProfileMatch              : 
+16:15:54 INFO  ProfileMatch              :                 name: Facebook
+16:15:54 INFO  ProfileMatch              :             category: SocialMedia
+16:15:54 INFO  ProfileMatch              :              version: 4.36.1  [OLD VERSION]
+16:15:54 INFO  ProfileMatch              :         release-date: 15.09.2018
+16:15:54 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.ads.a")
+16:15:54 INFO  ProfileMatch              : 
+16:15:54 INFO  ProfileMatch              :                 name: Facebook
+16:15:54 INFO  ProfileMatch              :             category: SocialMedia
+16:15:54 INFO  ProfileMatch              :              version: 4.37.0  [OLD VERSION]
+16:15:54 INFO  ProfileMatch              :         release-date: 27.09.2018
+16:15:54 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.ads.a")
+16:15:54 INFO  ProfileMatch              : 
+16:15:54 INFO  ProfileMatch              :                 name: Facebook
+16:15:54 INFO  ProfileMatch              :             category: SocialMedia
+16:15:54 INFO  ProfileMatch              :              version: 4.38.0  [OLD VERSION]
+16:15:54 INFO  ProfileMatch              :         release-date: 23.10.2018
+16:15:54 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.ads.a")
+16:15:54 INFO  ProfileMatch              : 
+16:15:54 INFO  ProfileMatch              :                 name: Facebook
+16:15:54 INFO  ProfileMatch              :             category: SocialMedia
+16:15:54 INFO  ProfileMatch              :              version: 4.38.1  [OLD VERSION]
+16:15:54 INFO  ProfileMatch              :         release-date: 31.10.2018
+16:15:54 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.ads.a")
+16:15:54 INFO  ProfileMatch              : 
+16:15:54 INFO  ProfileMatch              :                 name: Facebook
+16:15:54 INFO  ProfileMatch              :             category: SocialMedia
+16:15:54 INFO  ProfileMatch              :              version: 4.39.0  [OLD VERSION]
+16:15:54 INFO  ProfileMatch              :         release-date: 05.12.2018
+16:15:54 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.ads.a")
+16:15:54 INFO  ProfileMatch              : 
+16:15:54 INFO  ProfileMatch              :                 name: Facebook
+16:15:54 INFO  ProfileMatch              :             category: SocialMedia
+16:15:54 INFO  ProfileMatch              :              version: 4.40.0
+16:15:54 INFO  ProfileMatch              :         release-date: 23.01.2019
+16:15:54 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.ads.a")
+16:15:54 INFO  ProfileMatch              : 
+16:15:55 INFO  LibraryIdentifier         : 
+16:15:55 INFO  LibraryIdentifier         : - Partial library matches:
+16:15:55 INFO  LibraryIdentifier         : 
+16:15:55 INFO  LibraryIdentifier         : App processing time: 5 sec, 841 ms

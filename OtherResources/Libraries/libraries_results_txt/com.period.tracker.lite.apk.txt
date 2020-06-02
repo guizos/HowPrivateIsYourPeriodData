@@ -1,0 +1,1472 @@
+16:38:06 INFO  LibScoutConfig            : This is LibScout 2.3.2
+16:38:06 INFO  Profile                   : Load library profiles:
+16:38:59 INFO  Profile                   :     Loaded 8008 profiles in 52 sec, 524 ms
+16:38:59 INFO  Profile                   : 
+16:38:59 INFO  LibraryIdentifier         : Process app: com.period.tracker.lite.apk
+16:38:59 INFO  LibraryIdentifier         : = Manifest Parser =
+16:38:59 INFO  LibraryIdentifier         :         Package name: com.period.tracker.lite
+16:38:59 INFO  LibraryIdentifier         :         Version code: 91
+16:38:59 INFO  LibraryIdentifier         :        minSdkVersion: 16
+16:38:59 INFO  LibraryIdentifier         :     targetSdkVersion: 26
+16:38:59 INFO  LibraryIdentifier         :         SharedUserId:  - none -
+16:38:59 INFO  LibraryIdentifier         :     Library dependencies:  - none -
+16:38:59 INFO  LibraryIdentifier         : 
+16:38:59 INFO  LibraryIdentifier         : Found 391 unique libraries in 8008 library profiles
+16:38:59 INFO  LibraryIdentifier         : Multi-dex apk detected - Code is merged to single class hierarchy!
+16:39:01 INFO  LibraryIdentifier         : Generated class hierarchy (in 1 sec, 547 ms)
+16:39:02 INFO  WalaUtils                 : 
+16:39:02 INFO  WalaUtils                 : = ClassHierarchy Stats =
+16:39:02 INFO  WalaUtils                 :     # of classes: 12471
+16:39:02 INFO  WalaUtils                 :     # thereof inner classes: 5503
+16:39:02 INFO  WalaUtils                 :     # thereof public classes: 6876
+16:39:02 INFO  WalaUtils                 :         Activity : 184
+16:39:02 INFO  WalaUtils                 :         Application : 2
+16:39:02 INFO  WalaUtils                 :         AsyncTask : 51
+16:39:02 INFO  WalaUtils                 :         BroadcastReceiver : 112
+16:39:02 INFO  WalaUtils                 :         ContentProvider : 5
+16:39:02 INFO  WalaUtils                 :         Fragment : 21
+16:39:02 INFO  WalaUtils                 :         Handler : 205
+16:39:02 INFO  WalaUtils                 :         LayoutContainer : 131
+16:39:02 INFO  WalaUtils                 :         Plain : 11584
+16:39:02 INFO  WalaUtils                 :         Runnable : 0
+16:39:02 INFO  WalaUtils                 :         Service : 22
+16:39:02 INFO  WalaUtils                 :         Thread : 59
+16:39:02 INFO  WalaUtils                 :         View : 95
+16:39:02 INFO  WalaUtils                 :     # methods: 81332
+16:39:02 INFO  WalaUtils                 :         # of publicly accessible methods: 57386
+16:39:02 INFO  WalaUtils                 :         # of non-accessible methods: 23946
+16:39:02 INFO  WalaUtils                 : 
+16:39:02 INFO  Profile                   : = PackageTree =
+16:39:03 INFO  PackageTree               : Root Package:  - none -
+16:39:03 INFO  PackageTree               : └── Root
+16:39:03 INFO  PackageTree               :     ├── com
+16:39:03 INFO  PackageTree               :     │   ├── google
+16:39:03 INFO  PackageTree               :     │   │   ├── android
+16:39:03 INFO  PackageTree               :     │   │   │   ├── gms
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── internal
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── ads (1453)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── config (62)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── firebase_messaging (7)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── measurement (302)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── ads_identifier (7)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── stable (18)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── firebase_abt (15)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   └── phenotype (8)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── common (35)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── config (12)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── internal (114)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   │   ├── service (16)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   │   ├── safeparcel (13)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   │   └── constants (1)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── api (57)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   │   └── internal (133)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── server (6)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   │   ├── response (28)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   │   └── converter (6)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── images (17)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   │   └── internal (10)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── util (47)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   │   └── concurrent (4)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── data (38)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── stats (14)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── wrappers (3)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── logging (1)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── annotation (4)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── sqlite (1)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── net (6)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── providers (3)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── oob (1)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   └── collect (1)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── dynamic (22)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── ads (19)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── reward (4)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   │   └── mediation (3)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── formats (28)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── internal (67)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   │   ├── gmsg (35)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   │   └── overlay (25)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── mediation (18)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   │   ├── customevent (13)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   │   └── admob (1)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── search (5)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── identifier (6)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   └── doubleclick (7)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── actions (4)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── phenotype (23)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── stats (8)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── netstats (2)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   └── internal (3)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── signin (7)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   └── internal (21)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── measurement (12)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── dynamite (23)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   └── descriptors
+16:39:03 INFO  PackageTree               :     │   │   │   │   │       └── com
+16:39:03 INFO  PackageTree               :     │   │   │   │   │           └── google
+16:39:03 INFO  PackageTree               :     │   │   │   │   │               └── android
+16:39:03 INFO  PackageTree               :     │   │   │   │   │                   └── gms
+16:39:03 INFO  PackageTree               :     │   │   │   │   │                       └── ads
+16:39:03 INFO  PackageTree               :     │   │   │   │   │                           └── dynamite (1)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── tasks (43)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── security (3)
+16:39:03 INFO  PackageTree               :     │   │   │   │   └── auth
+16:39:03 INFO  PackageTree               :     │   │   │   │       └── api
+16:39:03 INFO  PackageTree               :     │   │   │   │           └── signin (8)
+16:39:03 INFO  PackageTree               :     │   │   │   │               └── internal (4)
+16:39:03 INFO  PackageTree               :     │   │   │   └── exoplayer2 (50)
+16:39:03 INFO  PackageTree               :     │   │   │       ├── extractor (19)
+16:39:03 INFO  PackageTree               :     │   │   │       │   ├── ts (39)
+16:39:03 INFO  PackageTree               :     │   │   │       │   ├── mp3 (7)
+16:39:03 INFO  PackageTree               :     │   │   │       │   ├── mp4 (29)
+16:39:03 INFO  PackageTree               :     │   │   │       │   ├── mkv (11)
+16:39:03 INFO  PackageTree               :     │   │   │       │   ├── flv (7)
+16:39:03 INFO  PackageTree               :     │   │   │       │   ├── ogg (21)
+16:39:03 INFO  PackageTree               :     │   │   │       │   ├── wav (5)
+16:39:03 INFO  PackageTree               :     │   │   │       │   └── rawcc (1)
+16:39:03 INFO  PackageTree               :     │   │   │       ├── trackselection (20)
+16:39:03 INFO  PackageTree               :     │   │   │       ├── audio (37)
+16:39:03 INFO  PackageTree               :     │   │   │       ├── metadata (10)
+16:39:03 INFO  PackageTree               :     │   │   │       │   ├── scte35 (15)
+16:39:03 INFO  PackageTree               :     │   │   │       │   ├── id3 (22)
+16:39:03 INFO  PackageTree               :     │   │   │       │   └── emsg (3)
+16:39:03 INFO  PackageTree               :     │   │   │       ├── source (53)
+16:39:03 INFO  PackageTree               :     │   │   │       │   ├── hls (17)
+16:39:03 INFO  PackageTree               :     │   │   │       │   │   └── playlist (14)
+16:39:03 INFO  PackageTree               :     │   │   │       │   ├── smoothstreaming (7)
+16:39:03 INFO  PackageTree               :     │   │   │       │   │   └── manifest (10)
+16:39:03 INFO  PackageTree               :     │   │   │       │   ├── dash (19)
+16:39:03 INFO  PackageTree               :     │   │   │       │   │   └── manifest (21)
+16:39:03 INFO  PackageTree               :     │   │   │       │   └── chunk (16)
+16:39:03 INFO  PackageTree               :     │   │   │       ├── upstream (56)
+16:39:03 INFO  PackageTree               :     │   │   │       │   ├── cache (23)
+16:39:03 INFO  PackageTree               :     │   │   │       │   └── crypto (4)
+16:39:03 INFO  PackageTree               :     │   │   │       ├── util (34)
+16:39:03 INFO  PackageTree               :     │   │   │       ├── ui (18)
+16:39:03 INFO  PackageTree               :     │   │   │       ├── text (16)
+16:39:03 INFO  PackageTree               :     │   │   │       │   ├── dvb (11)
+16:39:03 INFO  PackageTree               :     │   │   │       │   ├── cea (11)
+16:39:03 INFO  PackageTree               :     │   │   │       │   ├── webvtt (14)
+16:39:03 INFO  PackageTree               :     │   │   │       │   ├── ttml (9)
+16:39:03 INFO  PackageTree               :     │   │   │       │   ├── tx3g (2)
+16:39:03 INFO  PackageTree               :     │   │   │       │   └── subrip (2)
+16:39:03 INFO  PackageTree               :     │   │   │       ├── drm (37)
+16:39:03 INFO  PackageTree               :     │   │   │       ├── decoder (11)
+16:39:03 INFO  PackageTree               :     │   │   │       ├── video (20)
+16:39:03 INFO  PackageTree               :     │   │   │       └── mediacodec (11)
+16:39:03 INFO  PackageTree               :     │   │   ├── ads (4)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── mediation (21)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── nexage (44)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── inmobi (19)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── customevent (10)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── millennial (1)
+16:39:03 INFO  PackageTree               :     │   │   │   │   └── admob (1)
+16:39:03 INFO  PackageTree               :     │   │   │   └── consent (17)
+16:39:03 INFO  PackageTree               :     │   │   ├── firebase (17)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── components (20)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── messaging (10)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── abt (1)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── inject (1)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── iid (46)
+16:39:03 INFO  PackageTree               :     │   │   │   │   └── internal (1)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── internal (4)
+16:39:03 INFO  PackageTree               :     │   │   │   │   └── api (1)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── analytics (4)
+16:39:03 INFO  PackageTree               :     │   │   │   │   └── connector (6)
+16:39:03 INFO  PackageTree               :     │   │   │   │       └── internal (5)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── remoteconfig (9)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── events (4)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── auth (2)
+16:39:03 INFO  PackageTree               :     │   │   │   └── provider (1)
+16:39:03 INFO  PackageTree               :     │   │   └── gson (40)
+16:39:03 INFO  PackageTree               :     │   │       ├── annotations (5)
+16:39:03 INFO  PackageTree               :     │   │       ├── internal (53)
+16:39:03 INFO  PackageTree               :     │   │       │   ├── bind (66)
+16:39:03 INFO  PackageTree               :     │   │       │   │   └── util (1)
+16:39:03 INFO  PackageTree               :     │   │       │   └── reflect (3)
+16:39:03 INFO  PackageTree               :     │   │       ├── stream (6)
+16:39:03 INFO  PackageTree               :     │   │       ├── util (1)
+16:39:03 INFO  PackageTree               :     │   │       └── reflect (1)
+16:39:03 INFO  PackageTree               :     │   ├── inmobi
+16:39:03 INFO  PackageTree               :     │   │   ├── ads (290)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── cache (17)
+16:39:03 INFO  PackageTree               :     │   │   │   └── a (1)
+16:39:03 INFO  PackageTree               :     │   │   ├── rendering (43)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── mraid (24)
+16:39:03 INFO  PackageTree               :     │   │   │   └── a (20)
+16:39:03 INFO  PackageTree               :     │   │   ├── commons
+16:39:03 INFO  PackageTree               :     │   │   │   ├── core
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── a (9)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── configs (19)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── utilities (15)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── uid (6)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── b (9)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   └── a (3)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── b (6)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── network (12)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── e (12)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── d (3)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── f (2)
+16:39:03 INFO  PackageTree               :     │   │   │   │   └── c (3)
+16:39:03 INFO  PackageTree               :     │   │   │   └── a (2)
+16:39:03 INFO  PackageTree               :     │   │   ├── sdk (12)
+16:39:03 INFO  PackageTree               :     │   │   ├── signals (24)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── b (6)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── a (3)
+16:39:03 INFO  PackageTree               :     │   │   │   └── activityrecognition (5)
+16:39:03 INFO  PackageTree               :     │   │   └── a (5)
+16:39:03 INFO  PackageTree               :     │   ├── period
+16:39:03 INFO  PackageTree               :     │   │   └── tracker (6)
+16:39:03 INFO  PackageTree               :     │   │       ├── activity (370)
+16:39:03 INFO  PackageTree               :     │   │       ├── social
+16:39:03 INFO  PackageTree               :     │   │       │   └── activity (485)
+16:39:03 INFO  PackageTree               :     │   │       ├── ttc
+16:39:03 INFO  PackageTree               :     │   │       │   ├── chart (15)
+16:39:03 INFO  PackageTree               :     │   │       │   ├── other (10)
+16:39:03 INFO  PackageTree               :     │   │       │   └── activity (32)
+16:39:03 INFO  PackageTree               :     │   │       ├── partner (61)
+16:39:03 INFO  PackageTree               :     │   │       ├── charts
+16:39:03 INFO  PackageTree               :     │   │       │   └── activity (40)
+16:39:03 INFO  PackageTree               :     │   │       ├── lifestyle (62)
+16:39:03 INFO  PackageTree               :     │   │       ├── custom_homepage_ad (5)
+16:39:03 INFO  PackageTree               :     │   │       ├── container (39)
+16:39:03 INFO  PackageTree               :     │   │       ├── utils (67)
+16:39:03 INFO  PackageTree               :     │   │       ├── engines (24)
+16:39:03 INFO  PackageTree               :     │   │       ├── widgets (10)
+16:39:03 INFO  PackageTree               :     │   │       ├── common (5)
+16:39:03 INFO  PackageTree               :     │   │       └── lite (2)
+16:39:03 INFO  PackageTree               :     │   ├── amazonaws (13)
+16:39:03 INFO  PackageTree               :     │   │   ├── auth (19)
+16:39:03 INFO  PackageTree               :     │   │   │   └── policy (9)
+16:39:03 INFO  PackageTree               :     │   │   │       ├── actions (4)
+16:39:03 INFO  PackageTree               :     │   │   │       ├── conditions (15)
+16:39:03 INFO  PackageTree               :     │   │   │       ├── resources (4)
+16:39:03 INFO  PackageTree               :     │   │   │       └── internal (4)
+16:39:03 INFO  PackageTree               :     │   │   ├── services
+16:39:03 INFO  PackageTree               :     │   │   │   └── s3 (8)
+16:39:03 INFO  PackageTree               :     │   │   │       ├── transfer (14)
+16:39:03 INFO  PackageTree               :     │   │   │       │   ├── internal (21)
+16:39:03 INFO  PackageTree               :     │   │   │       │   └── model (1)
+16:39:03 INFO  PackageTree               :     │   │   │       ├── model (99)
+16:39:03 INFO  PackageTree               :     │   │   │       │   └── transform (46)
+16:39:03 INFO  PackageTree               :     │   │   │       ├── internal (32)
+16:39:03 INFO  PackageTree               :     │   │   │       │   └── crypto (7)
+16:39:03 INFO  PackageTree               :     │   │   │       └── iterable (4)
+16:39:03 INFO  PackageTree               :     │   │   ├── javax
+16:39:03 INFO  PackageTree               :     │   │   │   └── xml (1)
+16:39:03 INFO  PackageTree               :     │   │   │       ├── transform (20)
+16:39:03 INFO  PackageTree               :     │   │   │       │   ├── stream (2)
+16:39:03 INFO  PackageTree               :     │   │   │       │   ├── dom (3)
+16:39:03 INFO  PackageTree               :     │   │   │       │   ├── sax (5)
+16:39:03 INFO  PackageTree               :     │   │   │       │   └── stax (2)
+16:39:03 INFO  PackageTree               :     │   │   │       ├── stream (73)
+16:39:03 INFO  PackageTree               :     │   │   │       │   ├── xerces
+16:39:03 INFO  PackageTree               :     │   │   │       │   │   ├── xni (12)
+16:39:03 INFO  PackageTree               :     │   │   │       │   │   │   └── parser (17)
+16:39:03 INFO  PackageTree               :     │   │   │       │   │   ├── util (39)
+16:39:03 INFO  PackageTree               :     │   │   │       │   │   └── impl
+16:39:03 INFO  PackageTree               :     │   │   │       │   │       ├── io (3)
+16:39:03 INFO  PackageTree               :     │   │   │       │   │       └── msg (1)
+16:39:03 INFO  PackageTree               :     │   │   │       │   ├── writers (10)
+16:39:03 INFO  PackageTree               :     │   │   │       │   ├── util (7)
+16:39:03 INFO  PackageTree               :     │   │   │       │   ├── events (32)
+16:39:03 INFO  PackageTree               :     │   │   │       │   └── dtd (1)
+16:39:03 INFO  PackageTree               :     │   │   │       │       └── nonvalidating (6)
+16:39:03 INFO  PackageTree               :     │   │   │       └── namespace (3)
+16:39:03 INFO  PackageTree               :     │   │   ├── http (16)
+16:39:03 INFO  PackageTree               :     │   │   ├── tvmclient (13)
+16:39:03 INFO  PackageTree               :     │   │   ├── transform (50)
+16:39:03 INFO  PackageTree               :     │   │   ├── util (19)
+16:39:03 INFO  PackageTree               :     │   │   │   └── json (6)
+16:39:03 INFO  PackageTree               :     │   │   ├── internal (4)
+16:39:03 INFO  PackageTree               :     │   │   ├── regions (5)
+16:39:03 INFO  PackageTree               :     │   │   └── handlers (4)
+16:39:03 INFO  PackageTree               :     │   ├── mopub
+16:39:03 INFO  PackageTree               :     │   │   ├── volley (33)
+16:39:03 INFO  PackageTree               :     │   │   │   └── toolbox (36)
+16:39:03 INFO  PackageTree               :     │   │   ├── mobileads (185)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── util (7)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── dfp
+16:39:03 INFO  PackageTree               :     │   │   │   │   └── adapters (13)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── factories (10)
+16:39:03 INFO  PackageTree               :     │   │   │   └── resource (15)
+16:39:03 INFO  PackageTree               :     │   │   ├── network (33)
+16:39:03 INFO  PackageTree               :     │   │   ├── common (90)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── event (26)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── util (27)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── logging (2)
+16:39:03 INFO  PackageTree               :     │   │   │   └── factories (1)
+16:39:03 INFO  PackageTree               :     │   │   ├── mraid (59)
+16:39:03 INFO  PackageTree               :     │   │   ├── nativeads (140)
+16:39:03 INFO  PackageTree               :     │   │   │   └── factories (1)
+16:39:03 INFO  PackageTree               :     │   │   └── exceptions (2)
+16:39:03 INFO  PackageTree               :     │   ├── moat
+16:39:03 INFO  PackageTree               :     │   │   └── analytics
+16:39:03 INFO  PackageTree               :     │   │       └── mobile
+16:39:03 INFO  PackageTree               :     │   │           ├── mpub (82)
+16:39:03 INFO  PackageTree               :     │   │           │   └── a
+16:39:03 INFO  PackageTree               :     │   │           │       ├── b (1)
+16:39:03 INFO  PackageTree               :     │   │           │       └── a (1)
+16:39:03 INFO  PackageTree               :     │   │           ├── aol (84)
+16:39:03 INFO  PackageTree               :     │   │           │   └── base
+16:39:03 INFO  PackageTree               :     │   │           │       ├── functional (1)
+16:39:03 INFO  PackageTree               :     │   │           │       └── asserts (1)
+16:39:03 INFO  PackageTree               :     │   │           ├── aer (83)
+16:39:03 INFO  PackageTree               :     │   │           │   └── base
+16:39:03 INFO  PackageTree               :     │   │           │       ├── functional (1)
+16:39:03 INFO  PackageTree               :     │   │           │       └── asserts (1)
+16:39:03 INFO  PackageTree               :     │   │           └── inm (83)
+16:39:03 INFO  PackageTree               :     │   │               └── a
+16:39:03 INFO  PackageTree               :     │   │                   ├── a (1)
+16:39:03 INFO  PackageTree               :     │   │                   └── b (1)
+16:39:03 INFO  PackageTree               :     │   ├── charts (12)
+16:39:03 INFO  PackageTree               :     │   ├── usebutton
+16:39:03 INFO  PackageTree               :     │   │   ├── sdk (20)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── internal (61)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── views (46)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   └── interactive (8)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── core (22)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── api (22)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   └── models (20)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── events (15)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── util (46)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── models (25)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── merchantaction (8)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── commands (17)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── functional (5)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── web (4)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── receivers (3)
+16:39:03 INFO  PackageTree               :     │   │   │   │   └── recipients (2)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── models (31)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── context (8)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── util (13)
+16:39:03 INFO  PackageTree               :     │   │   │   └── activity (1)
+16:39:03 INFO  PackageTree               :     │   │   └── thirdparty
+16:39:03 INFO  PackageTree               :     │   │       ├── com
+16:39:03 INFO  PackageTree               :     │   │       │   └── squareup (16)
+16:39:03 INFO  PackageTree               :     │   │       └── android
+16:39:03 INFO  PackageTree               :     │   │           └── support
+16:39:03 INFO  PackageTree               :     │   │               ├── v7
+16:39:03 INFO  PackageTree               :     │   │               │   └── widget (20)
+16:39:03 INFO  PackageTree               :     │   │               └── v4
+16:39:03 INFO  PackageTree               :     │   │                   └── view (6)
+16:39:03 INFO  PackageTree               :     │   ├── aerserv
+16:39:03 INFO  PackageTree               :     │   │   ├── sdk (30)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── adapter (92)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── asmytargetsdk (4)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── asadmob (5)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── asmillennial (4)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── asaerserv (9)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   └── mraid (4)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── asyahoo (2)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── asinmobi (3)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── asfacebook (3)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── task (7)
+16:39:03 INFO  PackageTree               :     │   │   │   │   └── asmopubsdk (4)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── view (19)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── component (41)
+16:39:03 INFO  PackageTree               :     │   │   │   │   └── vastplayer (37)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── controller (13)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── listener (31)
+16:39:03 INFO  PackageTree               :     │   │   │   │   └── command (10)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── model (2)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── vast (32)
+16:39:03 INFO  PackageTree               :     │   │   │   │   └── ad (10)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── utils (36)
+16:39:03 INFO  PackageTree               :     │   │   │   │   └── task (8)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── strategy (22)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── notification (4)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── analytics (6)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── proxy (11)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── http (5)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── factory (2)
+16:39:03 INFO  PackageTree               :     │   │   │   └── dao (1)
+16:39:03 INFO  PackageTree               :     │   │   └── admob (11)
+16:39:03 INFO  PackageTree               :     │   ├── integralads
+16:39:03 INFO  PackageTree               :     │   │   └── avid
+16:39:03 INFO  PackageTree               :     │   │       └── library
+16:39:03 INFO  PackageTree               :     │   │           ├── inmobi (17)
+16:39:03 INFO  PackageTree               :     │   │           │   ├── session (8)
+16:39:03 INFO  PackageTree               :     │   │           │   │   └── internal (13)
+16:39:03 INFO  PackageTree               :     │   │           │   │       ├── trackingwebview (4)
+16:39:03 INFO  PackageTree               :     │   │           │   │       └── jsbridge (7)
+16:39:03 INFO  PackageTree               :     │   │           │   ├── registration (2)
+16:39:03 INFO  PackageTree               :     │   │           │   ├── utils (6)
+16:39:03 INFO  PackageTree               :     │   │           │   ├── walking (3)
+16:39:03 INFO  PackageTree               :     │   │           │   │   └── async (8)
+16:39:03 INFO  PackageTree               :     │   │           │   ├── deferred (2)
+16:39:03 INFO  PackageTree               :     │   │           │   ├── weakreference (4)
+16:39:03 INFO  PackageTree               :     │   │           │   ├── video (2)
+16:39:03 INFO  PackageTree               :     │   │           │   ├── processing (5)
+16:39:03 INFO  PackageTree               :     │   │           │   ├── base (1)
+16:39:03 INFO  PackageTree               :     │   │           │   └── activity (1)
+16:39:03 INFO  PackageTree               :     │   │           └── mopub (17)
+16:39:03 INFO  PackageTree               :     │   │               ├── utils (6)
+16:39:03 INFO  PackageTree               :     │   │               ├── session (8)
+16:39:03 INFO  PackageTree               :     │   │               │   └── internal (13)
+16:39:03 INFO  PackageTree               :     │   │               │       ├── jsbridge (7)
+16:39:03 INFO  PackageTree               :     │   │               │       └── trackingwebview (4)
+16:39:03 INFO  PackageTree               :     │   │               ├── video (2)
+16:39:03 INFO  PackageTree               :     │   │               ├── walking (3)
+16:39:03 INFO  PackageTree               :     │   │               │   └── async (8)
+16:39:03 INFO  PackageTree               :     │   │               ├── registration (2)
+16:39:03 INFO  PackageTree               :     │   │               ├── processing (5)
+16:39:03 INFO  PackageTree               :     │   │               ├── deferred (2)
+16:39:03 INFO  PackageTree               :     │   │               ├── weakreference (4)
+16:39:03 INFO  PackageTree               :     │   │               ├── activity (1)
+16:39:03 INFO  PackageTree               :     │   │               └── base (1)
+16:39:03 INFO  PackageTree               :     │   ├── millennialmedia (87)
+16:39:03 INFO  PackageTree               :     │   │   ├── internal (116)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── video (156)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── adadapters (42)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── adcontrollers (53)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── utils (58)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── playlistserver (11)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── task (5)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── geoipcheck (5)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── handshake (5)
+16:39:03 INFO  PackageTree               :     │   │   │   │   └── reporting (5)
+16:39:03 INFO  PackageTree               :     │   │   │   └── adwrapper (14)
+16:39:03 INFO  PackageTree               :     │   │   └── mediation (14)
+16:39:03 INFO  PackageTree               :     │   ├── apsalar
+16:39:03 INFO  PackageTree               :     │   │   └── sdk (32)
+16:39:03 INFO  PackageTree               :     │   ├── pusher
+16:39:03 INFO  PackageTree               :     │   │   └── client (4)
+16:39:03 INFO  PackageTree               :     │   │       ├── connection (4)
+16:39:03 INFO  PackageTree               :     │   │       │   ├── websocket (14)
+16:39:03 INFO  PackageTree               :     │   │       │   └── impl (1)
+16:39:03 INFO  PackageTree               :     │   │       ├── channel (9)
+16:39:03 INFO  PackageTree               :     │   │       │   └── impl (10)
+16:39:03 INFO  PackageTree               :     │   │       ├── util (3)
+16:39:03 INFO  PackageTree               :     │   │       └── example (4)
+16:39:03 INFO  PackageTree               :     │   ├── loopj
+16:39:03 INFO  PackageTree               :     │   │   └── android
+16:39:03 INFO  PackageTree               :     │   │       └── image (10)
+16:39:03 INFO  PackageTree               :     │   ├── squareup
+16:39:03 INFO  PackageTree               :     │   │   └── picasso (80)
+16:39:03 INFO  PackageTree               :     │   ├── basecamp
+16:39:03 INFO  PackageTree               :     │   │   └── turbolinks (21)
+16:39:03 INFO  PackageTree               :     │   ├── a
+16:39:03 INFO  PackageTree               :     │   │   └── e (2)
+16:39:03 INFO  PackageTree               :     │   ├── camera (6)
+16:39:03 INFO  PackageTree               :     │   ├── custom_homepage_ads (1)
+16:39:03 INFO  PackageTree               :     │   └── c
+16:39:03 INFO  PackageTree               :     │       └── c (1)
+16:39:03 INFO  PackageTree               :     ├── org
+16:39:03 INFO  PackageTree               :     │   ├── codehaus
+16:39:03 INFO  PackageTree               :     │   │   └── jackson (23)
+16:39:03 INFO  PackageTree               :     │   │       ├── map (61)
+16:39:03 INFO  PackageTree               :     │   │       │   ├── ser (74)
+16:39:03 INFO  PackageTree               :     │   │       │   │   └── impl (22)
+16:39:03 INFO  PackageTree               :     │   │       │   ├── deser (104)
+16:39:03 INFO  PackageTree               :     │   │       │   │   └── impl (4)
+16:39:03 INFO  PackageTree               :     │   │       │   ├── annotate (12)
+16:39:03 INFO  PackageTree               :     │   │       │   ├── type (15)
+16:39:03 INFO  PackageTree               :     │   │       │   ├── jsontype (5)
+16:39:03 INFO  PackageTree               :     │   │       │   │   └── impl (15)
+16:39:03 INFO  PackageTree               :     │   │       │   ├── ext (24)
+16:39:03 INFO  PackageTree               :     │   │       │   ├── introspect (22)
+16:39:03 INFO  PackageTree               :     │   │       │   ├── util (25)
+16:39:03 INFO  PackageTree               :     │   │       │   ├── exc (1)
+16:39:03 INFO  PackageTree               :     │   │       │   └── module (6)
+16:39:03 INFO  PackageTree               :     │   │       ├── annotate (29)
+16:39:03 INFO  PackageTree               :     │   │       ├── node (27)
+16:39:03 INFO  PackageTree               :     │   │       ├── format (6)
+16:39:03 INFO  PackageTree               :     │   │       ├── impl (17)
+16:39:03 INFO  PackageTree               :     │   │       ├── util (20)
+16:39:03 INFO  PackageTree               :     │   │       ├── io (13)
+16:39:03 INFO  PackageTree               :     │   │       ├── schema (4)
+16:39:03 INFO  PackageTree               :     │   │       ├── type (3)
+16:39:03 INFO  PackageTree               :     │   │       └── sym (10)
+16:39:03 INFO  PackageTree               :     │   ├── apache
+16:39:03 INFO  PackageTree               :     │   │   ├── commons
+16:39:03 INFO  PackageTree               :     │   │   │   ├── lang3 (41)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── mutable (9)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── builder (40)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── time (48)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── concurrent (18)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── math (3)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── text (19)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   └── translate (13)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── reflect (13)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── tuple (6)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── event (4)
+16:39:03 INFO  PackageTree               :     │   │   │   │   └── exception (6)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── codec (9)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── language (6)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── net (6)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── binary (3)
+16:39:03 INFO  PackageTree               :     │   │   │   │   └── digest (1)
+16:39:03 INFO  PackageTree               :     │   │   │   └── logging (10)
+16:39:03 INFO  PackageTree               :     │   │   │       └── impl (14)
+16:39:03 INFO  PackageTree               :     │   │   ├── log4j (42)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── helpers (33)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── net (16)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── spi (24)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── lf5 (10)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── viewer (52)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   ├── categoryexplorer (22)
+16:39:03 INFO  PackageTree               :     │   │   │   │   │   └── configure (2)
+16:39:03 INFO  PackageTree               :     │   │   │   │   └── util (8)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── config (5)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── xml (12)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── rewrite (5)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── pattern (37)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── chainsaw (20)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── or (4)
+16:39:03 INFO  PackageTree               :     │   │   │   │   ├── jms (1)
+16:39:03 INFO  PackageTree               :     │   │   │   │   └── sax (1)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── varia (11)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── jdbc (1)
+16:39:03 INFO  PackageTree               :     │   │   │   ├── jmx (7)
+16:39:03 INFO  PackageTree               :     │   │   │   └── nt (1)
+16:39:03 INFO  PackageTree               :     │   │   └── http
+16:39:03 INFO  PackageTree               :     │   │       └── entity
+16:39:03 INFO  PackageTree               :     │   │           └── mime (8)
+16:39:03 INFO  PackageTree               :     │   │               └── content (7)
+16:39:03 INFO  PackageTree               :     │   ├── slf4j (7)
+16:39:03 INFO  PackageTree               :     │   │   ├── helpers (12)
+16:39:03 INFO  PackageTree               :     │   │   ├── spi (4)
+16:39:03 INFO  PackageTree               :     │   │   └── impl (6)
+16:39:03 INFO  PackageTree               :     │   └── java_websocket (11)
+16:39:03 INFO  PackageTree               :     │       ├── util (5)
+16:39:03 INFO  PackageTree               :     │       ├── framing (6)
+16:39:03 INFO  PackageTree               :     │       ├── client (3)
+16:39:03 INFO  PackageTree               :     │       ├── exceptions (7)
+16:39:03 INFO  PackageTree               :     │       ├── handshake (9)
+16:39:03 INFO  PackageTree               :     │       ├── server (6)
+16:39:03 INFO  PackageTree               :     │       └── drafts (8)
+16:39:03 INFO  PackageTree               :     ├── android
+16:39:03 INFO  PackageTree               :     │   ├── arch
+16:39:03 INFO  PackageTree               :     │   │   ├── lifecycle (23)
+16:39:03 INFO  PackageTree               :     │   │   └── core
+16:39:03 INFO  PackageTree               :     │   │       └── internal (8)
+16:39:03 INFO  PackageTree               :     │   └── support
+16:39:03 INFO  PackageTree               :     │       ├── v4
+16:39:03 INFO  PackageTree               :     │       │   ├── media (138)
+16:39:03 INFO  PackageTree               :     │       │   │   ├── session (92)
+16:39:03 INFO  PackageTree               :     │       │   │   └── app (3)
+16:39:03 INFO  PackageTree               :     │       │   ├── widget (111)
+16:39:03 INFO  PackageTree               :     │       │   ├── content (32)
+16:39:03 INFO  PackageTree               :     │       │   │   ├── res (12)
+16:39:03 INFO  PackageTree               :     │       │   │   └── pm (5)
+16:39:03 INFO  PackageTree               :     │       │   ├── provider (34)
+16:39:03 INFO  PackageTree               :     │       │   ├── util (29)
+16:39:03 INFO  PackageTree               :     │       │   ├── hardware
+16:39:03 INFO  PackageTree               :     │       │   │   ├── fingerprint (5)
+16:39:03 INFO  PackageTree               :     │       │   │   └── display (3)
+16:39:03 INFO  PackageTree               :     │       │   ├── app (174)
+16:39:03 INFO  PackageTree               :     │       │   ├── print (16)
+16:39:03 INFO  PackageTree               :     │       │   ├── view (117)
+16:39:03 INFO  PackageTree               :     │       │   │   ├── accessibility (17)
+16:39:03 INFO  PackageTree               :     │       │   │   └── animation (6)
+16:39:03 INFO  PackageTree               :     │       │   ├── graphics (19)
+16:39:03 INFO  PackageTree               :     │       │   │   └── drawable (15)
+16:39:03 INFO  PackageTree               :     │       │   ├── os (24)
+16:39:03 INFO  PackageTree               :     │       │   ├── math (1)
+16:39:03 INFO  PackageTree               :     │       │   ├── text (13)
+16:39:03 INFO  PackageTree               :     │       │   │   └── util (4)
+16:39:03 INFO  PackageTree               :     │       │   ├── internal
+16:39:03 INFO  PackageTree               :     │       │   │   └── view (3)
+16:39:03 INFO  PackageTree               :     │       │   ├── net (5)
+16:39:03 INFO  PackageTree               :     │       │   ├── accessibilityservice (1)
+16:39:03 INFO  PackageTree               :     │       │   └── database (1)
+16:39:03 INFO  PackageTree               :     │       ├── annotation (52)
+16:39:03 INFO  PackageTree               :     │       ├── v7
+16:39:03 INFO  PackageTree               :     │       │   ├── widget (311)
+16:39:03 INFO  PackageTree               :     │       │   │   ├── helper (18)
+16:39:03 INFO  PackageTree               :     │       │   │   └── util (1)
+16:39:03 INFO  PackageTree               :     │       │   ├── app (89)
+16:39:03 INFO  PackageTree               :     │       │   ├── util (30)
+16:39:03 INFO  PackageTree               :     │       │   ├── view (14)
+16:39:03 INFO  PackageTree               :     │       │   │   └── menu (48)
+16:39:03 INFO  PackageTree               :     │       │   ├── content
+16:39:03 INFO  PackageTree               :     │       │   │   └── res (4)
+16:39:03 INFO  PackageTree               :     │       │   ├── graphics
+16:39:03 INFO  PackageTree               :     │       │   │   └── drawable (3)
+16:39:03 INFO  PackageTree               :     │       │   └── text (1)
+16:39:03 INFO  PackageTree               :     │       ├── design
+16:39:03 INFO  PackageTree               :     │       │   ├── widget (153)
+16:39:03 INFO  PackageTree               :     │       │   └── internal (33)
+16:39:03 INFO  PackageTree               :     │       ├── transition (145)
+16:39:03 INFO  PackageTree               :     │       ├── graphics
+16:39:03 INFO  PackageTree               :     │       │   └── drawable (23)
+16:39:03 INFO  PackageTree               :     │       ├── customtabs (31)
+16:39:03 INFO  PackageTree               :     │       ├── constraint (5)
+16:39:03 INFO  PackageTree               :     │       │   └── solver (10)
+16:39:03 INFO  PackageTree               :     │       │       └── widgets (19)
+16:39:03 INFO  PackageTree               :     │       └── multidex (9)
+16:39:03 INFO  PackageTree               :     └── net
+16:39:03 INFO  PackageTree               :         └── hockeyapp
+16:39:03 INFO  PackageTree               :             └── android (26)
+16:39:03 INFO  Profile                   : 
+16:39:03 INFO  AppProfile                : - generated app package tree (in 149 ms)
+16:39:03 INFO  AppProfile                : 
+16:39:03 DEBUG HashTree                  : Generate hash tree..
+16:39:04 DEBUG HashTree                  :     - generated 485 package hashes.
+16:39:04 DEBUG HashTree                  :     - generated 12168 clazz hashes.
+16:39:04 DEBUG HashTree                  :     - generated 81332 method hashes.
+16:39:04 DEBUG HashTree                  :     => Library Hash: 50457d7300f21205fc11e910ca59cc3d
+16:39:04 INFO  AppProfile                : - generated app hash trees (in 1 sec, 336 ms)
+16:39:04 INFO  AppProfile                : 
+16:39:04 INFO  LibraryIdentifier         : = Scan for library root packages (heuristic) =
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.amazonaws  (Amazon-AWS-Auto-Scaling)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.amazonaws  (Amazon-AWS-Elastic-Beanstalk)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.amazonaws  (Amazon-AWS-IoT)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.amazonaws  (Amazon-AWS-Lambda)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.amazonaws  (Amazon-AWS-Mobile-Analytics)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.amazonaws  (Amazon-AWS-Mobile-SDK-core)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.amazonaws  (Amazon-Cloud-Watch)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.amazonaws  (Amazon-Cognito-Auth)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.amazonaws  (Amazon-Cognito-Identity-Provider)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.amazonaws  (Amazon-Cognito-Sync)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.amazonaws  (Amazon-DynamoDB)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.amazonaws  (Amazon-DynamoDB-Object-Mapper)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.amazonaws  (Amazon-Elastic-Compute-Cloud-(EC2))
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.amazonaws  (Amazon-Kinesis-Streams)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.amazonaws  (Amazon-Lex)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.amazonaws  (Amazon-Pinpoint)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.amazonaws  (Amazon-Simple-Email-Service-(SES))
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.amazonaws  (Amazon-Simple-Notification-Service-(SNS))
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.amazonaws  (Amazon-Simple-Queue-Service-(SQS))
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.amazonaws  (Amazon-Simple-Storage-Service-(S3))
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.amazonaws  (Amazon-SimpleDB)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.google.gson  (Gson)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package net.hockeyapp.android  (HockeyApp)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.squareup.picasso  (Picasso)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.arch.core.internal  (android.arch.core::common)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.arch.core  (android.arch.core::runtime)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.arch.lifecycle  (android.arch.lifecycle::common)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.arch.lifecycle  (android.arch.lifecycle::common-java8)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.arch.lifecycle  (android.arch.lifecycle::compiler)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.arch.lifecycle  (android.arch.lifecycle::extensions)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.arch.lifecycle  (android.arch.lifecycle::livedata)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.arch.lifecycle  (android.arch.lifecycle::livedata-core)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.arch.lifecycle  (android.arch.lifecycle::reactivestreams)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.arch.lifecycle  (android.arch.lifecycle::runtime)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.arch.lifecycle  (android.arch.lifecycle::viewmodel)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (androidx.media::media)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package org.apache.http  (apache-httpclient-android)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.constraint  (com.android.support.constraint::constraint-layout)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.constraint.solver  (com.android.support.constraint::constraint-layout-solver)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (com.android.support::animated-vector-drawable)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (com.android.support::appcompat-v7)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.view  (com.android.support::asynclayoutinflater)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (com.android.support::cardview-v7)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.util  (com.android.support::collections)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.widget  (com.android.support::cursoradapter)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.customtabs  (com.android.support::customtabs)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (com.android.support::customview)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (com.android.support::design)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.provider  (com.android.support::documentfile)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.widget  (com.android.support::drawerlayout)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (com.android.support::gridlayout-v7)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.view.animation  (com.android.support::interpolator)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (com.android.support::loader)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.content  (com.android.support::localbroadcastmanager)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (com.android.support::mediarouter-v7)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.multidex  (com.android.support::multidex)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.graphics  (com.android.support::palette-v7)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (com.android.support::preference-v7)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.print  (com.android.support::print)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (com.android.support::recyclerview-v7)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.widget  (com.android.support::slidingpanelayout)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (com.android.support::support-annotations)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (com.android.support::support-compat)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (com.android.support::support-core-ui)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (com.android.support::support-core-utils)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (com.android.support::support-fragment)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (com.android.support::support-media-compat)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (com.android.support::support-v4)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (com.android.support::support-vector-drawable)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.widget  (com.android.support::swiperefreshlayout)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.transition  (com.android.support::transition)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.view  (com.android.support::viewpager)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.google.ads.consent  (com.google.android.ads.consent::consent-library)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.internal.ads  (com.google.android.gms::play-services-ads-base)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.internal  (com.google.android.gms::play-services-clearcut)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.internal  (com.google.android.gms::play-services-gass)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.internal.measurement  (com.google.android.gms::play-services-measurement-base)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.stats  (com.google.android.gms::play-services-stats)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.tasks  (com.google.android.gms::play-services-tasks)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.google.firebase.abt  (com.google.firebase::firebase-abt)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.measurement  (com.google.firebase::firebase-analytics)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.google.firebase  (com.google.firebase::firebase-common)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.google.firebase  (com.google.firebase::firebase-firestore)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.google.firebase.iid  (com.google.firebase::firebase-iid)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.google.firebase.iid.internal  (com.google.firebase::firebase-iid-interop)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.google.firebase.analytics.connector  (com.google.firebase::firebase-measurement-connector)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.google.firebase.analytics.connector  (com.google.firebase::firebase-measurement-connector-impl)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.google.firebase.messaging  (com.google.firebase::firebase-messaging)
+16:39:04 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.internal  (com.google.firebase::firebase-storage-common)
+16:39:04 INFO  LibraryIdentifier         : 
+16:39:04 INFO  LibraryIdentifier         : = Match profiles =
+16:40:11 INFO  LibraryIdentifier         :     >> profile matching done (1 min, 7 sec, 372 ms)
+16:40:11 INFO  LibraryIdentifier         : 
+16:40:11 INFO  LibraryIdentifier         : == Report ==
+16:40:11 INFO  LibraryIdentifier         : - Full library matches:
+16:40:11 INFO  ProfileMatch              :                 name: com.google.android.ads.consent::consent-library
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 1.0.2  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "com.google.ads.consent"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.google.android.ads.consent::consent-library
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 1.0.3  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "com.google.ads.consent"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.google.android.ads.consent::consent-library
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 1.0.4  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "com.google.ads.consent"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.google.android.ads.consent::consent-library
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 1.0.5  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "com.google.ads.consent"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.google.android.ads.consent::consent-library
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 1.0.6  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "com.google.ads.consent"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.google.android.ads.consent::consent-library
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 1.0.7
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "com.google.ads.consent"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-ads-lite
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 15.0.0  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "com.google"  (in app: "com.google")
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-ads-lite
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 15.0.1  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "com.google"  (in app: "com.google")
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-ads-lite
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 16.0.0  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "com.google"  (in app: "com.google")
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-common
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 16.0.0  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "com.google.firebase"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.android.support::localbroadcastmanager
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 28.0.0
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "android.support.v4.content"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-base
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 15.0.0  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-base
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 15.0.1  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.android.support::appcompat-v7
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 27.0.2  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "android.support.v7"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.android.support.constraint::constraint-layout
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 1.0.2  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "android.support.constraint"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.android.support::customview
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 28.0.0
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "android.support.v4"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-ads
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 15.0.0  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-ads
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 15.0.1  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-ads
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 16.0.0  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.android.support::support-core-utils
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 28.0.0
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "android.support.v4.content"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-basement
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 15.0.0  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "com.google"  (in app: "com.google")
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-basement
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 15.0.1  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "com.google"  (in app: "com.google")
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.android.support::support-annotations
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 26.0.0  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "android.support.annotation"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.android.support::support-annotations
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 26.0.1  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "android.support.annotation"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.android.support::support-annotations
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 26.0.2  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "android.support.annotation"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.android.support::support-annotations
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 26.1.0  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "android.support.annotation"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.android.support::support-annotations
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 27.0.0  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "android.support.annotation"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.android.support::support-annotations
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 27.0.1  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "android.support.annotation"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.android.support::support-annotations
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 27.0.2  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "android.support.annotation"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-abt
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 15.0.0  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "com.google"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-abt
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 15.0.1  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "com.google"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-abt
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 16.0.0  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "com.google"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-abt
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 16.0.1  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "com.google"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.android.support::transition
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 26.0.0  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "android.support.transition"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.android.support::transition
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 26.0.1  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "android.support.transition"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.android.support::transition
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 26.0.2  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "android.support.transition"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.android.support::transition
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 26.1.0  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "android.support.transition"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-stats
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 15.0.0  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "com.google.android.gms.stats"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-stats
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 15.0.1  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "com.google.android.gms.stats"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.android.support::design
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 26.0.0  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "android.support.design"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.android.support::design
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 26.0.1  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "android.support.design"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.android.support::design
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 26.0.2  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "android.support.design"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.android.support::design
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 26.1.0  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "android.support.design"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-iid-interop
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 15.0.0  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "com.google.firebase.iid.internal"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-iid-interop
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 16.0.0  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "com.google.firebase.iid.internal"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-iid-interop
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 16.0.1
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "com.google.firebase.iid.internal"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-messaging
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 17.1.0  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "com.google.firebase.messaging"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.android.support.constraint::constraint-layout-solver
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 1.0.2  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "android.support.constraint.solver"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.android.support::support-media-compat
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 26.0.1  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "android.support.v4.media"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.android.support::support-media-compat
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 26.0.2  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "android.support.v4.media"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.android.support::support-media-compat
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 26.1.0  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "android.support.v4.media"
+16:40:11 INFO  ProfileMatch              : 
+16:40:11 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-analytics
+16:40:11 INFO  ProfileMatch              :             category: Android
+16:40:11 INFO  ProfileMatch              :              version: 16.0.1  [OLD VERSION]
+16:40:11 INFO  ProfileMatch              :         release-date:  --
+16:40:11 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"
+16:40:11 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-phenotype
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 15.0.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-phenotype
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 15.0.1  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-phenotype
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 16.0.0
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: android.arch.core::common
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 1.0.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "android.arch.core.internal"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: android.arch.core::common
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 1.1.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "android.arch.core.internal"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.support::asynclayoutinflater
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 28.0.0
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "android.support.v4.view"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: Picasso
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 2.5.2  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date: 20.03.2015
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.squareup.picasso"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-ads-identifier
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 15.0.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-ads-identifier
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 15.0.1  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-ads-identifier
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 16.0.0
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-iid
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 16.2.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.google"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-measurement-connector-impl
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 16.0.1  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.google.firebase.analytics.connector"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: androidx.palette::palette-ktx
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 1.0.0
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "androidx.palette.graphics"  (in app: "com.inmobi.ads")
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-measurement-connector
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 15.0.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.google.firebase.analytics.connector"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-measurement-connector
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 16.0.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.google.firebase.analytics.connector"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-tasks
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 15.0.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.google.android.gms.tasks"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-tasks
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 15.0.1  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.google.android.gms.tasks"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.google.android.gms::play-services-tasks
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 16.0.1
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.google.android.gms.tasks"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.support::recyclerview-v7
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 26.0.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "android.support.v7"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.support::recyclerview-v7
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 26.0.1  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "android.support.v7"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.support::recyclerview-v7
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 26.0.2  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "android.support.v7"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.support::recyclerview-v7
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 26.1.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "android.support.v7"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.tools::annotations
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 26.0.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.android.annotations"  (in app: "org.codehaus.jackson")
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.tools::annotations
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 26.0.1  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.android.annotations"  (in app: "org.codehaus.jackson")
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.tools::annotations
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 26.1.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.android.annotations"  (in app: "org.codehaus.jackson")
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.tools::annotations
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 26.1.1  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.android.annotations"  (in app: "org.codehaus.jackson")
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.tools::annotations
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 26.1.2  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.android.annotations"  (in app: "org.codehaus.jackson")
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.tools::annotations
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 26.1.3  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.android.annotations"  (in app: "org.codehaus.jackson")
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.tools::annotations
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 26.1.4  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.android.annotations"  (in app: "org.codehaus.jackson")
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.tools::annotations
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 26.2.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.android.annotations"  (in app: "org.codehaus.jackson")
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.tools::annotations
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 26.2.1  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.android.annotations"  (in app: "org.codehaus.jackson")
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.tools::annotations
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 26.3.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.android.annotations"  (in app: "org.codehaus.jackson")
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.tools::annotations
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 26.3.1
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.android.annotations"  (in app: "org.codehaus.jackson")
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.support::support-core-ui
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 26.0.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "android.support.v4"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.support::support-core-ui
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 26.0.1  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "android.support.v4"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.support::support-core-ui
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 26.0.2  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "android.support.v4"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.support::support-core-ui
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 26.1.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "android.support.v4"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.support::support-core-ui
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 27.0.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "android.support.v4"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.support::support-core-ui
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 27.0.1  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "android.support.v4"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.support::support-core-ui
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 27.0.2  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "android.support.v4"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.support::support-core-ui
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 28.0.0
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "android.support.v4"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: Facebook
+16:40:12 INFO  ProfileMatch              :             category: SocialMedia
+16:40:12 INFO  ProfileMatch              :              version: 4.27.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date: 26.09.2017
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.ads.dynamite")
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: Facebook
+16:40:12 INFO  ProfileMatch              :             category: SocialMedia
+16:40:12 INFO  ProfileMatch              :              version: 4.28.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date: 07.11.2017
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.ads.dynamite")
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: Facebook
+16:40:12 INFO  ProfileMatch              :             category: SocialMedia
+16:40:12 INFO  ProfileMatch              :              version: 4.29.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date: 05.12.2017
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.ads.dynamite")
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: Facebook
+16:40:12 INFO  ProfileMatch              :             category: SocialMedia
+16:40:12 INFO  ProfileMatch              :              version: 4.30.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date: 25.01.2018
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.ads.dynamite")
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: Facebook
+16:40:12 INFO  ProfileMatch              :             category: SocialMedia
+16:40:12 INFO  ProfileMatch              :              version: 4.31.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date: 28.02.2018
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.ads.dynamite")
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: Facebook
+16:40:12 INFO  ProfileMatch              :             category: SocialMedia
+16:40:12 INFO  ProfileMatch              :              version: 4.32.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date: 11.04.2018
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.ads.dynamite")
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: Facebook
+16:40:12 INFO  ProfileMatch              :             category: SocialMedia
+16:40:12 INFO  ProfileMatch              :              version: 4.33.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date: 01.05.2018
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.ads.dynamite")
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: Facebook
+16:40:12 INFO  ProfileMatch              :             category: SocialMedia
+16:40:12 INFO  ProfileMatch              :              version: 4.34.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date: 19.06.2018
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.ads.dynamite")
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: Facebook
+16:40:12 INFO  ProfileMatch              :             category: SocialMedia
+16:40:12 INFO  ProfileMatch              :              version: 4.35.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date: 27.07.2018
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.ads.dynamite")
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: Facebook
+16:40:12 INFO  ProfileMatch              :             category: SocialMedia
+16:40:12 INFO  ProfileMatch              :              version: 4.36.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date: 30.08.2018
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.ads.dynamite")
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: Facebook
+16:40:12 INFO  ProfileMatch              :             category: SocialMedia
+16:40:12 INFO  ProfileMatch              :              version: 4.36.1  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date: 15.09.2018
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.ads.dynamite")
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: Facebook
+16:40:12 INFO  ProfileMatch              :             category: SocialMedia
+16:40:12 INFO  ProfileMatch              :              version: 4.37.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date: 27.09.2018
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.ads.dynamite")
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: Facebook
+16:40:12 INFO  ProfileMatch              :             category: SocialMedia
+16:40:12 INFO  ProfileMatch              :              version: 4.38.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date: 23.10.2018
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.ads.dynamite")
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: Facebook
+16:40:12 INFO  ProfileMatch              :             category: SocialMedia
+16:40:12 INFO  ProfileMatch              :              version: 4.38.1  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date: 31.10.2018
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.ads.dynamite")
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: Facebook
+16:40:12 INFO  ProfileMatch              :             category: SocialMedia
+16:40:12 INFO  ProfileMatch              :              version: 4.39.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date: 05.12.2018
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.ads.dynamite")
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: Facebook
+16:40:12 INFO  ProfileMatch              :             category: SocialMedia
+16:40:12 INFO  ProfileMatch              :              version: 4.40.0
+16:40:12 INFO  ProfileMatch              :         release-date: 23.01.2019
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "com.google.android.gms.dynamite.descriptors.com.google.android.gms.ads.dynamite")
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-analytics-impl
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 16.1.1  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.google"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.support::multidex
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 1.0.1  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "android.support.multidex"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-config
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 15.0.2  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.google"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-config
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 16.0.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.google"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.google.firebase::firebase-config
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 16.0.1  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.google"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: Gson
+16:40:12 INFO  ProfileMatch              :             category: Utilities
+16:40:12 INFO  ProfileMatch              :              version: 2.8.4  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date: 01.05.2018
+16:40:12 INFO  ProfileMatch              :     lib root package: "com.google.gson"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.support::viewpager
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 28.0.0
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "android.support.v4.view"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.support::customtabs
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 25.3.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "android.support.customtabs"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.support::customtabs
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 25.3.1  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "android.support.customtabs"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.support::customtabs
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 25.4.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "android.support.customtabs"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.support::customtabs
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 26.0.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "android.support.customtabs"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.support::customtabs
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 26.0.1  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "android.support.customtabs"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.support::customtabs
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 26.0.2  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "android.support.customtabs"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  ProfileMatch              :                 name: com.android.support::customtabs
+16:40:12 INFO  ProfileMatch              :             category: Android
+16:40:12 INFO  ProfileMatch              :              version: 26.1.0  [OLD VERSION]
+16:40:12 INFO  ProfileMatch              :         release-date:  --
+16:40:12 INFO  ProfileMatch              :     lib root package: "android.support.customtabs"
+16:40:12 INFO  ProfileMatch              : 
+16:40:12 INFO  LibraryIdentifier         : 
+16:40:12 INFO  LibraryIdentifier         : - Partial library matches:
+16:40:12 INFO  LibraryIdentifier         :                 name: com.android.support::support-compat
+16:40:12 INFO  LibraryIdentifier         :             category: Android
+16:40:12 INFO  LibraryIdentifier         :              version: 27.0.2  [OLD VERSION]
+16:40:12 INFO  LibraryIdentifier         :         release-date:  --
+16:40:12 INFO  LibraryIdentifier         :     lib root package: "android.support.v4"
+16:40:12 INFO  LibraryIdentifier         :         Partial matching results:
+16:40:12 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9878486
+16:40:12 INFO  LibraryIdentifier         : 
+16:40:12 INFO  LibraryIdentifier         :                 name: com.android.support::interpolator
+16:40:12 INFO  LibraryIdentifier         :             category: Android
+16:40:12 INFO  LibraryIdentifier         :              version: 28.0.0
+16:40:12 INFO  LibraryIdentifier         :         release-date:  --
+16:40:12 INFO  LibraryIdentifier         :     lib root package: "android.support.v4.view.animation"
+16:40:12 INFO  LibraryIdentifier         :         Partial matching results:
+16:40:12 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.75
+16:40:12 INFO  LibraryIdentifier         : 
+16:40:12 INFO  LibraryIdentifier         :                 name: androidx.interpolator::interpolator
+16:40:12 INFO  LibraryIdentifier         :             category: Android
+16:40:12 INFO  LibraryIdentifier         :              version: 1.0.0
+16:40:12 INFO  LibraryIdentifier         :         release-date:  --
+16:40:12 INFO  LibraryIdentifier         :     lib root package: "androidx.interpolator.view.animation"
+16:40:12 INFO  LibraryIdentifier         :         Partial matching results:
+16:40:12 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.75
+16:40:12 INFO  LibraryIdentifier         : 
+16:40:12 INFO  LibraryIdentifier         : 
+16:40:12 INFO  LibraryIdentifier         : App processing time: 1 min, 12 sec, 817 ms

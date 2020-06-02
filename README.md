@@ -3,7 +3,8 @@ This repository holds the data used for the paper:
 
 ```
 How private is your period?: A systematic analysis of menstrual app privacy policies
-Laura Shipp (Royal Holloway, University of London) and Jorge Blasco (Royal Holloway, University of London). Proceedings on Privacy Enhancing Technologies 2020 (PoPETs 2020)(link to be added when paper is published by Sciendo)
+Laura Shipp (Royal Holloway, University of London) and Jorge Blasco (Royal Holloway, University of London). 
+Proceedings on Privacy Enhancing Technologies 2020 (PoPETs 2020)(link to be added when paper is published by Sciendo)
 ```
 
 The data includes the following:

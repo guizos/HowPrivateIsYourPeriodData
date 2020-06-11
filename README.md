@@ -14,6 +14,7 @@ The data includes the following:
   - `apps_sha256.txt`: The sha256 hash of all the apps analysed in the paper. They should be available from common Android app repositories such as Androzoo, etc.
   - `LanguageAnalysis.xlsx`: File with language statistics extracted from the privacy policy files.
   - `Libraries`: Folder with the results from executing LibScout and a few scripts to interpret the obtained results.
-  - `Words`: Words used for the analysis of ambiguous language.
+  - `policy_analyser.py`: Code that checks for presence of words and extracts readability scores from the policy files. It has a main method but it should be used via an ipython console. The relevant methods are `extract_sentences_for_words` and `extract_readability_scores`.
+  - `RelevantWords.txt`: Words used for the analysis of ambiguous language.
 
 
